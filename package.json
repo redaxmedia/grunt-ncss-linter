@@ -21,12 +21,12 @@
 	{
 		"chai": "4.1.1",
 		"eslint": "4.4.1",
-		"grunt": "1.0.0",
+		"grunt": "1.0.1",
 		"mocha": "3.5.0"
 	},
 	"scripts":
 	{
-		"lint": "node_modules/eslint/bin/eslint.js bin src tests",
+		"lint": "node_modules/eslint/bin/eslint.js src tests",
 		"test": "node_modules/mocha/bin/mocha tests"
 	}
 }
