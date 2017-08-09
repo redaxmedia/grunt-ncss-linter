@@ -1,13 +1,17 @@
 {
-    "env":
-    {
-        "browser": true,
+	"env":
+	{
+		"browser": true,
 		"es6": true,
-        "mocha": true,
+		"mocha": true,
 		"node": true
-    },
+	},
+	"globals":
+	{
+		"grunt": true
+	},
 	"extends":
 	[
 		"eslint:recommended"
-    ]
+	]
 }
