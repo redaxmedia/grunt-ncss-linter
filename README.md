@@ -15,3 +15,28 @@ Installation
 ```
 npm install grunt-ncss-linter
 ```
+
+
+Usage
+-----
+
+```
+{
+	ncss:
+	{
+		options:
+		{
+			html: null,
+			path: null,
+			url: null,
+			namespace: null,
+			separator: '-',
+			selector: '*',
+			threshold: 0,
+			loglevel: 'warn',
+			haltonerror: false,
+			haltonwarn: false
+		}
+	}
+}
+```
