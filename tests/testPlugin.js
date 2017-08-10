@@ -1,7 +1,7 @@
 const expect = require('chai').expect;
 const exec = require('child_process').exec;
 
-describe('ncss-linter', () =>
+describe('ncsslint', () =>
 {
 	it('validate url', done =>
 	{
