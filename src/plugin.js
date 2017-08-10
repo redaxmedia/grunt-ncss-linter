@@ -17,6 +17,7 @@ let CORE;
 function init()
 {
 	const optionArray = this.options();
+	const done = this.async();
 
 	option.init(
 	{
@@ -45,16 +46,7 @@ function init()
 		.init()
 		.then(() =>
 		{
-			const reportArray = REPORTER.getReport();
-
-			if (reportArray.error.length)
-			{
-				grunt.log.error();
-			}
-			else
-			{
-				grunt.log.ok();
-			}
+			done();
 		});
 }
 

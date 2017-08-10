@@ -12,9 +12,10 @@ module.exports = grunt =>
 			{
 				options:
 				{
-					path: 'https://ncss.io',
+					url: 'https://ncss.io',
 					namespace: 'rs',
-					loglevel: 'debug'
+					selector: '*:not([class*="hljs"])',
+					loglevel: 'info'
 				}
 			}
 		}
