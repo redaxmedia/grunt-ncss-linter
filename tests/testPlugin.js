@@ -10,5 +10,6 @@ describe('ncss', () =>
 			expect(stdout).to.match(/PASSED/);
 			done();
 		});
-	});
+	})
+	.timeout(5000);
 });
