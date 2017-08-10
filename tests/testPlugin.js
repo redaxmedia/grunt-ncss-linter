@@ -1,11 +1,14 @@
 const expect = require('chai').expect;
-const plugin = require('../');
+const exec = require('child_process').exec;
 
 describe('ncss', () =>
 {
-	it('validate html', done =>
+	it('validate url', done =>
 	{
-		expect(plugin).to.equal(plugin);
-		done();
+		exec('grunt ncss:url', (error, stdout) =>
+		{
+			expect(stdout).to.match(/PASSED/);
+			done();
+		});
 	});
 });
