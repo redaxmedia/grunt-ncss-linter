@@ -22,7 +22,7 @@ Usage
 
 ```
 {
-	ncss:
+	ncsslint:
 	{
 		options:
 		{

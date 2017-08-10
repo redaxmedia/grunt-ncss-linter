@@ -62,7 +62,7 @@ function init()
 
 function construct(grunt)
 {
-	grunt.registerMultiTask('ncss', packageArray.description, init);
+	grunt.registerMultiTask('ncsslint', packageArray.description, init);
 }
 
 module.exports = construct;

@@ -6,7 +6,7 @@ module.exports = grunt =>
 
 	grunt.initConfig(
 	{
-		ncss:
+		ncsslint:
 		{
 			url:
 			{
@@ -29,6 +29,6 @@ module.exports = grunt =>
 
 	grunt.registerTask('default',
 	[
-		'ncss'
+		'ncsslint'
 	]);
 };
