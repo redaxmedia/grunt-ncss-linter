@@ -1,7 +1,7 @@
 {
 	"name": "grunt-ncss-linter",
 	"description": "Grunt enhanced linter for NCSS",
-	"version": "1.2.0",
+	"version": "1.2.1",
 	"homepage": "https://ncss.io",
 	"license": "GPL-3.0",
 	"author":
@@ -13,6 +13,10 @@
 	{
 		"url": "https://github.com/redaxmedia/grunt-ncss-linter/issues"
 	},
+	"keywords":
+	[
+		"gruntplugin"
+	],
 	"dependencies":
 	{
 		"ncss-linter": "2.0.0"
