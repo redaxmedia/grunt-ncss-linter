@@ -20,22 +20,34 @@ npm install grunt-ncss-linter
 Usage
 -----
 
+Load the task:
+
 ```
+grunt.loadNpmTasks('grunt-ncss-linter');
+```
+
+Config the task:
+
+```
+grunt.initConfig(
 {
 	ncsslint:
 	{
-		options:
+		name:
 		{
-			html: null,
-			path: null,
-			url: null,
-			namespace: null,
-			separator: '-',
-			selector: '*',
-			threshold: 0,
-			loglevel: 'warn',
-			haltonerror: false,
-			haltonwarn: false
+			options:
+			{
+				html: null,
+				path: null,
+				url: null,
+				namespace: null,
+				separator: '-',
+				selector: '*',
+				threshold: 0,
+				loglevel: 'warn',
+				haltonerror: false,
+				haltonwarn: false
+			}
 		}
 	}
 }
