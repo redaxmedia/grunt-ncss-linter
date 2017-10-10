@@ -1,9 +1,15 @@
 {
 	"name": "grunt-ncss-linter",
 	"description": "Grunt enhanced linter for NCSS",
-	"version": "1.4.0",
+	"version": "1.4.1",
 	"homepage": "https://ncss.io",
 	"license": "GPL-3.0",
+	"keywords":
+	[
+		"css",
+		"linter",
+		"gruntplugin"
+	],
 	"author":
 	{
 		"name": "Henry Ruhs",
@@ -13,20 +19,21 @@
 	{
 		"url": "https://github.com/redaxmedia/grunt-ncss-linter/issues"
 	},
-	"keywords":
-	[
-		"gruntplugin"
-	],
+	"repository":
+	{
+		"type": "git",
+		"url": "https://github.com/redaxmedia/grunt-ncss-linter.git"
+	},
 	"dependencies":
 	{
-		"ncss-linter": "2.2.0"
+		"ncss-linter": "2.2.1"
 	},
 	"devDependencies":
 	{
-		"chai": "4.1.1",
-		"eslint": "4.5.0",
+		"chai": "4.1.2",
+		"eslint": "4.8.0",
 		"grunt": "1.0.1",
-		"mocha": "3.5.0"
+		"mocha": "4.0.1"
 	},
 	"scripts":
 	{
