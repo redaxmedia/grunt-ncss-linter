@@ -22,13 +22,13 @@ Usage
 
 Load the task:
 
-```
+```js
 grunt.loadNpmTasks('grunt-ncss-linter');
 ```
 
 Config the task:
 
-```
+```js
 grunt.initConfig(
 {
 	ncsslint:
