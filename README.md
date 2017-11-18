@@ -1,7 +1,7 @@
 Grunt NCSS Linter
 =================
 
-> Grunt enhanced linter for NCSS.
+> Grunt enhanced linter for [NCSS](https://ncss.io).
 
 [![Build Status](https://img.shields.io/travis/redaxmedia/grunt-ncss-linter.svg)](https://travis-ci.org/redaxmedia/grunt-ncss-linter)
 [![Dependency Status](https://gemnasium.com/badges/github.com/redaxmedia/grunt-ncss-linter.svg)](https://gemnasium.com/github.com/redaxmedia/grunt-ncss-linter)
@@ -43,12 +43,31 @@ grunt.initConfig(
 				namespace: null,
 				separator: '-',
 				selector: '*',
-				threshold: 0,
-				loglevel: 'warn',
-				haltonerror: false,
-				haltonwarn: false
+				logLevel: 'warn',
+				thresholdError: 0,
+				thresholdWarn: 0,
+				haltOnError: false,
+				haltOnWarn: false
 			}
 		}
 	}
 }
 ```
+
+
+Options
+-------
+
+| Name           | Type    | Default | Mandatory |
+|----------------|---------|---------|-----------|
+| html           | string  | null    | required  |
+| path           | string  | null    | required  |
+| url            | string  | null    | required  |
+| namespace      | string  | null    | optional  |
+| separator      | string  | -       | optional  |
+| selector       | string  | *       | optional  |
+| logLevel       | string  | warn    | optional  |
+| thresholdError | number  | 0       | optional  |
+| thresholdWarn  | number  | 0       | optional  |
+| haltOnError    | boolean | false   | optional  |
+| haltOnWarn     | boolean | false   | optional  |

@@ -27,10 +27,11 @@ function init()
 		namespace: optionArray.namespace,
 		separator: optionArray.separator,
 		selector: optionArray.selector,
-		threshold: optionArray.threshold,
-		loglevel: optionArray.loglevel,
-		haltonerror: optionArray.haltonerror,
-		haltonwarn: optionArray.haltonwarn
+		logLevel: optionArray.logLevel,
+		thresholdError: optionArray.thresholdError,
+		thresholdWarn: optionArray.thresholdWarn,
+		haltOnError: optionArray.haltOnError,
+		haltOnWarn: optionArray.haltOnWarn
 	});
 	REPORTER = new reporter(
 	{
