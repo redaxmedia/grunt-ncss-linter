@@ -14,7 +14,7 @@ module.exports = grunt =>
 				{
 					url: 'https://ncss.io',
 					namespace: 'rs',
-					selector: '*:not(.css)'
+					selector: '*:not(.hljs):not(.css)'
 				}
 			}
 		}
