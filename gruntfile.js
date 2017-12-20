@@ -23,10 +23,6 @@ module.exports = grunt =>
 					url: 'https://ncss.io',
 					selector: '*'
 				}
-			},
-			options:
-			{
-				namespace: 'rs'
 			}
 		}
 	});

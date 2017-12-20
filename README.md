@@ -37,6 +37,7 @@ grunt.initConfig(
 		{
 			options:
 			{
+				config: '.ncsslintrc',
 				html: null,
 				path: null,
 				url: null,
@@ -58,16 +59,17 @@ grunt.initConfig(
 Options
 -------
 
-| Name           | Type    | Default | Mandatory |
-|----------------|---------|---------|-----------|
-| html           | string  | null    | required  |
-| path           | string  | null    | required  |
-| url            | string  | null    | required  |
-| namespace      | string  | null    | optional  |
-| separator      | string  | -       | optional  |
-| selector       | string  | *       | optional  |
-| logLevel       | string  | warn    | optional  |
-| thresholdError | number  | 0       | optional  |
-| thresholdWarn  | number  | 0       | optional  |
-| haltOnError    | boolean | false   | optional  |
-| haltOnWarn     | boolean | false   | optional  |
+| Name           | Type    | Default     | Mandatory |
+|----------------|---------|-------------|-----------|
+| config         | string  | .ncsslintrc | optional  |
+| html           | string  | null        | required  |
+| path           | string  | null        | required  |
+| url            | string  | null        | required  |
+| namespace      | string  | null        | optional  |
+| separator      | string  | -           | optional  |
+| selector       | string  | *           | optional  |
+| logLevel       | string  | warn        | optional  |
+| thresholdError | number  | 0           | optional  |
+| thresholdWarn  | number  | 0           | optional  |
+| haltOnError    | boolean | false       | optional  |
+| haltOnWarn     | boolean | false       | optional  |

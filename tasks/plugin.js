@@ -21,6 +21,7 @@ function init()
 
 	option.init(
 	{
+		config: optionArray.config,
 		html: optionArray.html,
 		path: optionArray.path,
 		url: optionArray.url,
