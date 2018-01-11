@@ -26,7 +26,7 @@ module.exports = grunt =>
 			},
 			options:
 			{
-				config: "tests/.ncsslintrc"
+				config: "tests/provider/.ncsslintrc"
 			}
 		}
 	});

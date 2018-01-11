@@ -73,3 +73,15 @@ Options
 | thresholdWarn  | number  | 0           | optional  |
 | haltOnError    | boolean | false       | optional  |
 | haltOnWarn     | boolean | false       | optional  |
+
+
+Loggers
+-------
+
+| Name    | Level | Value |
+|---------|-------|-------|
+| Silent  | 0     | null  |
+| Error   | 1     | error |
+| Warning | 2     | warn  |
+| Info    | 3     | info  |
+| Debug   | 4     | debug |
