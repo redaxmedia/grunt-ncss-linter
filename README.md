@@ -6,7 +6,7 @@ Grunt NCSS Linter
 [![Build Status](https://img.shields.io/travis/redaxmedia/grunt-ncss-linter.svg)](https://travis-ci.org/redaxmedia/grunt-ncss-linter)
 [![Dependency Status](https://gemnasium.com/badges/github.com/redaxmedia/grunt-ncss-linter.svg)](https://gemnasium.com/github.com/redaxmedia/grunt-ncss-linter)
 [![NPM Version](https://img.shields.io/npm/v/grunt-ncss-linter.svg)](https://www.npmjs.com/package/grunt-ncss-linter)
-[![License](https://img.shields.io/npm/l/grunt-ncss-linter)](https://www.npmjs.com/package/grunt-ncss-linter)
+[![License](https://img.shields.io/npm/l/grunt-ncss-linter.svg)](https://www.npmjs.com/package/grunt-ncss-linter)
 
 
 Installation
