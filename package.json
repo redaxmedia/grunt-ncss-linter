@@ -26,16 +26,17 @@
 	},
 	"dependencies":
 	{
-		"ncss-linter": "3.1.2"
+		"ncss-linter": "3.1.3"
 	},
 	"devDependencies":
 	{
 		"chai": "4.1.2",
-		"eslint": "4.15.0",
-		"grunt": "1.0.1",
-		"mocha": "4.1.0"
+		"eslint": "4.17.0",
+		"grunt": "1.0.2",
+		"mocha": "5.0.0"
 	},
-	"scripts": {
+	"scripts":
+	{
 		"lint": "eslint src tests",
 		"test": "mocha tests/*Test.js"
 	}
