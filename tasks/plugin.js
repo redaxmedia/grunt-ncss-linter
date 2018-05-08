@@ -36,13 +36,13 @@ function init()
 	});
 	REPORTER = new reporter(
 	{
-		option: option
+		option
 	});
 	CORE = new core(
 	{
 		reporter: REPORTER,
-		ruleset: ruleset,
-		option: option
+		ruleset,
+		option
 	});
 	CORE
 		.init()
