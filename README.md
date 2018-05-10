@@ -54,6 +54,12 @@ grunt.initConfig(
 }
 ```
 
+Run the task:
+
+```
+grunt ncsslint
+```
+
 
 Options
 -------
