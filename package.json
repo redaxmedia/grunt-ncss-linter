@@ -1,7 +1,7 @@
 {
 	"name": "grunt-ncss-linter",
 	"description": "Grunt enhanced linter for NCSS",
-	"version": "4.0.0-beta.3",
+	"version": "4.0.0",
 	"homepage": "https://ncss.io",
 	"license": "GPL-3.0",
 	"keywords":
@@ -26,7 +26,7 @@
 	},
 	"dependencies":
 	{
-		"ncss-linter": "4.0.0-beta.3"
+		"ncss-linter": "4.0.0"
 	},
 	"devDependencies":
 	{
