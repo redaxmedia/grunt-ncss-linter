@@ -1,11 +1,14 @@
 const ncss = require('ncss-linter');
 const core = ncss.core;
 const reporter = ncss.reporter;
+const validator = ncss.validator;
+const helper = ncss.helper;
 const ruleset = ncss.ruleset;
 const option = ncss.option;
 const packageArray = require('../package.json');
 
 let REPORTER;
+let VALIDATOR;
 let CORE;
 
 /**
@@ -38,10 +41,16 @@ function init()
 	{
 		option
 	});
+	VALIDATOR = new validator(
+	{
+		ruleset,
+		option
+	});
 	CORE = new core(
 	{
 		reporter: REPORTER,
-		ruleset,
+		validator: VALIDATOR,
+		helper,
 		option
 	});
 	CORE
