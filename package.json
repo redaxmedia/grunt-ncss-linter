@@ -1,7 +1,7 @@
 {
 	"name": "grunt-ncss-linter",
 	"description": "Grunt enhanced linter for NCSS",
-	"version": "4.0.1",
+	"version": "4.1.0",
 	"homepage": "https://ncss.io",
 	"license": "GPL-3.0",
 	"keywords":
@@ -26,15 +26,15 @@
 	},
 	"dependencies":
 	{
-		"ncss-linter": "4.0.1"
+		"ncss-linter": "4.1.0"
 	},
 	"devDependencies":
 	{
 		"chai": "4.2.0",
-		"eslint": "5.14.1",
+		"eslint": "5.16.0",
 		"eslint-config-redaxmedia": "1.1.0",
-		"grunt": "1.0.3",
-		"mocha": "6.0.2"
+		"grunt": "1.0.4",
+		"mocha": "6.1.4"
 	},
 	"scripts":
 	{
