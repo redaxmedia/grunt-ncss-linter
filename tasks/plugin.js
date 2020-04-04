@@ -22,7 +22,7 @@ function init()
 	const optionArray = this.options();
 	const done = this.async();
 
-	option.init(
+	option.init(JSON.parse(JSON.stringify(
 	{
 		config: optionArray.config,
 		html: optionArray.html,
@@ -36,7 +36,7 @@ function init()
 		thresholdWarn: optionArray.thresholdWarn,
 		haltOnError: optionArray.haltOnError,
 		haltOnWarn: optionArray.haltOnWarn
-	});
+	})));
 	REPORTER = new reporter(
 	{
 		option
@@ -55,10 +55,7 @@ function init()
 	});
 	CORE
 		.init()
-		.then(() =>
-		{
-			done();
-		});
+		.then(() => done());
 }
 
 /**
