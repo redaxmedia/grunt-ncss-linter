@@ -32,7 +32,7 @@ module.exports = grunt =>
 
 	/* load tasks */
 
-	grunt.loadTasks('src');
+	grunt.loadTasks('tasks');
 
 	/* register tasks */
 

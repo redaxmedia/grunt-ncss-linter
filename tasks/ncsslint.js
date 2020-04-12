@@ -1,5 +1,5 @@
 const ncss = require('ncss-linter');
-const plugin = ncss.core;
+const core = ncss.core;
 const reporter = ncss.reporter;
 const validator = ncss.validator;
 const helper = ncss.helper;
@@ -48,7 +48,7 @@ function init()
 		ruleset,
 		option
 	});
-	CORE = new plugin(
+	CORE = new core(
 	{
 		reporter: REPORTER,
 		validator: VALIDATOR,
