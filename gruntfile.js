@@ -25,14 +25,14 @@ module.exports = grunt =>
 			},
 			options:
 			{
-				config: "tests/provider/.ncsslintrc"
+				config: 'tests/provider/.ncsslintrc'
 			}
 		}
 	});
 
 	/* load tasks */
 
-	grunt.loadTasks('tasks');
+	grunt.loadTasks('src');
 
 	/* register tasks */
 
