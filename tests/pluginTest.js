@@ -11,7 +11,7 @@ describe('ncsslint', () =>
 			done();
 		});
 	})
-	.timeout(3000);
+	.timeout(5000);
 
 	it('task failed', done =>
 	{
@@ -21,5 +21,5 @@ describe('ncsslint', () =>
 			done();
 		});
 	})
-	.timeout(3000);
+	.timeout(5000);
 });
