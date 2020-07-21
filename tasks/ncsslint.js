@@ -57,7 +57,8 @@ function init()
 	});
 	CORE
 		.init()
-		.then(() => done());
+		.then(() => done())
+		.catch(() => done(false));
 }
 
 /**
