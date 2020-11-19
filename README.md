@@ -3,7 +3,7 @@ Grunt NCSS Linter
 
 > Grunt enhanced linter for [NCSS](https://ncss.io).
 
-[![Build Status](https://img.shields.io/travis/redaxmedia/grunt-ncss-linter.svg)](https://travis-ci.org/redaxmedia/grunt-ncss-linter)
+[![Build Status](https://img.shields.io/github/workflow/status/redaxmedia/grunt-ncss-linter/ci.svg)](https://github.com/redaxmedia/grunt-ncss-linter/actions?query=workflow:ci)
 [![NPM Version](https://img.shields.io/npm/v/grunt-ncss-linter.svg)](https://npmjs.com/package/grunt-ncss-linter)
 [![License](https://img.shields.io/npm/l/grunt-ncss-linter.svg)](https://npmjs.com/package/grunt-ncss-linter)
 

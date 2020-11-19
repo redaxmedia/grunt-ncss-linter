@@ -4,5 +4,5 @@
 		"js"
 	],
 	"spec": "tests/*Test.js",
-	"timeout": 8000
+	"timeout": 5000
 }
