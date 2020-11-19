@@ -10,8 +10,7 @@ describe('ncsslint', () =>
 			expect(stdout).to.match(/PASSED/);
 			done();
 		});
-	})
-	.timeout(5000);
+	});
 
 	it('task failed', done =>
 	{
@@ -20,6 +19,5 @@ describe('ncsslint', () =>
 			expect(stdout).to.match(/FAILED/);
 			done();
 		});
-	})
-	.timeout(5000);
+	});
 });
