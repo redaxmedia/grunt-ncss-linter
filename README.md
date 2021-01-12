@@ -47,7 +47,8 @@ grunt.initConfig(
 				thresholdError: 0,
 				thresholdWarn: 0,
 				haltOnError: false,
-				haltOnWarn: false
+				haltOnWarn: false,
+				rules: null
 			}
 		}
 	}
@@ -78,6 +79,7 @@ Options
 | thresholdWarn  | number  | 0           | optional  |
 | haltOnError    | boolean | false       | optional  |
 | haltOnWarn     | boolean | false       | optional  |
+| rules          | object  |             | optional  |
 
 
 Loggers
