@@ -1,3 +1,4 @@
 {
-	"namespace": "rs"
+	"namespace": "rs",
+	"selector": "*:not(html):not(head):not(body)"
 }
