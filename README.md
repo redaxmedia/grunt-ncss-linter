@@ -91,4 +91,3 @@ Loggers
 | Error   | 1     | error |
 | Warning | 2     | warn  |
 | Info    | 3     | info  |
-| Debug   | 4     | debug |
